@@ -1,0 +1,49 @@
+.date-converter {
+  background-color: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.date-converter h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.date-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.convert-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #947db5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.convert-button:hover {
+  background-color: #462e69;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.hebrew-date-result {
+  margin-top: 10px;
+  font-weight: bold;
+  direction: rtl;
+}
